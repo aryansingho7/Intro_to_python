@@ -1,4 +1,4 @@
-#numeric data type
+#numeric data type.
 
 a=5
 print('Type of a', type(a))
