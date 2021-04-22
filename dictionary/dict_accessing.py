@@ -18,5 +18,14 @@ print(Dict[1])
 Dict={1:'geeks', 'name':'for', 3:'geeks'}
 
 #accesing the ement using get()
-print('accessing elemnt using get()')
+print('accessing elemnt using get():')
 print(Dict.get(3))
+
+
+#accessing element of a nested dictionary
+Dict ={'Dict1': {1:'geek'}, 'Dict2':{'name':'for'}}
+
+#accessing element using key
+print(Dict['Dict1'])
+print(Dict['Dict1'][1])
+print(Dict['Dict2']['name'])
