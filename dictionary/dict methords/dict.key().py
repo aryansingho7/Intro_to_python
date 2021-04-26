@@ -13,7 +13,6 @@ empty_Dict1={}
 #print keys of empty dictionary
 print(empty_Dict1.keys())
 
-exit()
 
 
 # Python program to show updation
@@ -34,4 +33,19 @@ Dict1.update({'c':'geeks'})
 print('\n After dictionary is updated')
 print(keys)
 
-exit()
+
+
+# Python program to demonstrate
+# working of keys()
+
+#initialising dictionary
+test_dict={'geeks':7,'for':1,'geeks':2}
+
+#accesing 2nfd element using naive methord
+#using loop
+j=0
+for i in test_dict:
+    if(j==1):
+        print('2nd key using loop:'+1)
+        j=j+1
+
