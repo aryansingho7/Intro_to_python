@@ -15,6 +15,5 @@ print("User list is ", number_list)
 print("Sum = ", sum(number_list))
 
 # printing the maximum of list
-print("Maximum of list is : ",end="")
+print("Maximumw of list is : ",end="")
 print (max( number_list ) )
-
