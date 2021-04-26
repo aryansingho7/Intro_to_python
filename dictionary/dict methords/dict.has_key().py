@@ -33,20 +33,19 @@ print(Dict2.has_key('to'))
 #python program to search a ey in the dictionary 
 #using operator
 
-dictonary={1:'geeks',2:'for',3:'geeks'}
+dictionary={1:'geeks',2:'for',3:'geeks'}
 
-print('original dictionary:'.format(dictonary))
+print('original dictionary{}'.format(dictionary))
 
 #return true if present
-if 1 in dictonary:
-    print(dictonary[1])
-    else:
+if 1 in dictionary:
+    print(dictionary[1])
+else:
         print('{} is absent'.format(1))
 
 #return false is not present
 
-if 5 in dictonary.key():
-    print(dictonary[5])
-    else:
-        print("{} is absent:.format(5))
-
+if 5 in dictionary.keys():
+    print(dictionary[5])
+else:
+        print("{} is absent:".format(5))
