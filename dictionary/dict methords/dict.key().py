@@ -49,3 +49,6 @@ for i in test_dict:
         print('2nd key using loop:'+1)
         j=j+1
 
+
+#accesing the 2nd elemnt using keys()
+print('2nd key using keys():'+ test_dict.keys()[1])
